@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+</html>
+    <head>
+        <title>Formulir Online</title>
+    </head>
+    <body>
+        <form name="formulir"></form>
+        <table align="center" width="50%" cellpadding="10" cellspacing="0">
+            <thead>
+                   <tr bgcolor="pink">
+                      <th colspan="3">Formulir Online</th>
+                   </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="20%">Nama</td>
+                    <td>
+                        <input type="text" name="name" value="" size="20"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" name="sandi" value="" size="20"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" nama="jk" value="L"/>Laki-Laki
+                        &nbsp;
+                        <input type="radio" name="jk" value="P"/>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Hobby</td>
+                    <td>
+                        <input type="checkbok" name="hb" value="Dakwah" checked/><br/>
+                        <input type="checkbok" name="hb" value="Tilawah"/><br/>
+                        <input type="checkbok" name="hb" value="Menggambar"/><br/>
+                        <input type="checkbok" name="hb" value="Membaca"/><br/>
+                        <input type="checkbok" name="hb" value="Menyanyi"/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pendidikan</td>
+                    <td>
+                        <select name="Pendidikan">
+                            <option value="">-- Pilih Pendidikan Akhir --</option>
+                            <option value="MI">MI</option>
+                            <option value="MTS">MTS</option>
+                            <option value="MA">MA</option>
+                            <option value="S1" selected>SI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">Alamat</td>
+                    <td>
+                        <textarea name="Alamat" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr bgcolor="pink">
+                <th colspan="2">
+                        <input type="submit" name="Simpan" value="Simpan">
+                        &nbsp;
+                        <input type="reset" name="Batal" value="Batal">
+                     </th>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

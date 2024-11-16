@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* container */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#header, #menu, #footer {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT','Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 24pt;
+    font-weight: bolder;
+    text-align: center;
+}
+#header{
+    background-color: #405d27;
+}
+#menu {
+    background-color: #82b74b;
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: row; /*biar siedbar dan main sejajar*/
+}
+#sidebar {
+    background-color: #678b30;
+    width:200px;
+    flex-shrink: 0; /*biar siedbar ga mengecil*/
+}
+#main {
+    background-color: #b5e7a0;
+    flex: 1;
+    padding: 20px;
+}
+#footer {
+    background-color: #82b74b;
+}
